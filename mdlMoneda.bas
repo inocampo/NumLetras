@@ -88,20 +88,20 @@ Public Function NumLetras(ByVal Numero As Double, ByVal Mayusculas As Integer, M
     If Moneda = 1 Then
         Leyenda1 = "Peso "
         Else
-        Leyenda1 = "Dólares "
+        Leyenda1 = "DÃ³lares "
     End If
     
   ElseIf Val(Mid(NumTmp, 4, 12)) = 0 Or Val(Mid(NumTmp, 10, 6)) = 0 Then
     If Moneda = 1 Then
         Leyenda1 = "de Pesos "
         Else
-        Leyenda1 = "de Dólares "
+        Leyenda1 = "de DÃ³lares "
     End If
   Else
   If Moneda = 1 Then
     Leyenda1 = "Pesos "
     Else
-    Leyenda1 = "Dólares "
+    Leyenda1 = "DÃ³lares "
 End If
   End If
     If Moneda = 1 Then
@@ -196,7 +196,3 @@ Private Function Unidad(ByVal uni As Integer, ByVal dec As Integer) As String
   Unidad = cTexto
   cTexto = ""
 End Function
-
-                            
-
-
